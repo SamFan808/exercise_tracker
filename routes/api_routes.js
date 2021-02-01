@@ -2,25 +2,10 @@ const router = require("express").Router();
 const Cardio = require("../models/cardio.js");
 const Resistance = require("../models/resistance.js");
 
-// router.post("/api/transaction/bulk", ({ body }, res) => {
-//   Transaction.insertMany(body)
-//     .then((dbTransaction) => {
-//       res.json(dbTransaction);
-//     })
-//     .catch((err) => {
-//       res.status(400).json(err);
-//     });
-// });
-
-// router.get("/api/transaction", (req, res) => {
-//   Transaction.find({})
-//     .sort({ date: -1 })
-//     .then((dbTransaction) => {
-//       res.json(dbTransaction);
-//     })
-//     .catch((err) => {
-//       res.status(400).json(err);
-//     });
-// });
+// GET all route to display recent workouts
+// PUT route, add exercises to most recent workout plan
+// POST route, add new exercises to a new workout plan
+// GET route, combined weight from the past seven workouts on the stats page
+// GET route, total duration from the past seven workouts on the stats page
 
 module.exports = router;

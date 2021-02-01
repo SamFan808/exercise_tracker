@@ -2,6 +2,14 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const cardioSchema = new Schema({
+  day: {
+    type: Date,
+    default: Date.now,
+  },
+  exercise: {
+    type: String,
+    required: "Enter a name for the exercise",
+  },
   type: {
     type: String,
     trim: true,
