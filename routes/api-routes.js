@@ -25,7 +25,7 @@ router.get("/api/workouts/range", (req, res) => {
     });
 });
 
-// GET route, combined weight from the past seven workouts on the stats page
+// GET route, combined duration from the past seven workouts on the stats page
 // router.get("/api/workouts/range", (req, res) => {
 //   Workout.find({})
 //     .sort({ day: -1 })
