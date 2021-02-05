@@ -45,8 +45,6 @@ Licensed under: MIT license
 <img src="./public/Images/Screen_03_hw_17.png">
 
 
-Link to deployed app:
-
 ## Technology used
 
 `Javascript, HTML, CSS, NodeJS, Express, MongoDB, Mongoose `
@@ -55,6 +53,6 @@ Link to deployed app:
 
 GitHub Repository:
 
-http://github.com/SamFan808
+http://github.com/SamFan808/
 
 For any questions, please contact me at none
