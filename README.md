@@ -36,13 +36,13 @@ Licensed under: MIT license
 
 ## Screenshots
 
-<img src="./public/images/Screen_01_hw_17.png">
+<img src="./public/Images/Screen_01_hw_17.png">
 
 
-<img src="./public/images/Screen_02_hw_17.png">
+<img src="./public/Images/Screen_02_hw_17.png">
 
 
-<img src="./public/images/Screen_03_hw_17.png">
+<img src="./public/Images/Screen_03_hw_17.png">
 
 
 Link to deployed app:
