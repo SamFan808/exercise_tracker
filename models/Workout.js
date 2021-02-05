@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { options } = { toJSON: { virtuals: true } };
+const options = { toJSON: { virtuals: true } };
 
 // workout model
 const workoutSchema = new mongoose.Schema(
@@ -32,7 +32,7 @@ const workoutSchema = new mongoose.Schema(
   },
   options
 );
-
+// virtual that does not get store in MongoDB, but does increment
 workoutSchema.virtual("totalDuration").get(function () {
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.duration;
