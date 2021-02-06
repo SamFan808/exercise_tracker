@@ -32,7 +32,7 @@ const workoutSchema = new mongoose.Schema(
   },
   options
 );
-// virtual that does not get store in MongoDB, but does increment
+// virtual that does not get store in MongoDB, increments
 workoutSchema.virtual("totalDuration").get(function () {
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.duration;
