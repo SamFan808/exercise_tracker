@@ -38,7 +38,7 @@ Licensed under: MIT license
 
 link to deployed app:
 
-https://limitless-shore-90975.herokuapp.com/?id=601efba676fb170004dc1f8c
+https://limitless-shore-90975.herokuapp.com/
 
 <img src="./public/Images/Screen_01_hw_17.png">
 
