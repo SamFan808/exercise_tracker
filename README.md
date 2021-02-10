@@ -58,5 +58,3 @@ https://limitless-shore-90975.herokuapp.com/
 GitHub Repository:
 
 http://github.com/SamFan808/
-
-For any questions, please contact me at none
